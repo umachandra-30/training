@@ -1,0 +1,27 @@
+Web Applications:
+        -Any application that will run on browsers is called 
+         web applications
+        Types:
+            -Dynamic web application
+                --Any web applications having functionalities
+                  is called Dynamic web application.
+                --To build dynamic web applications HTML css and js 
+                  required.
+            -Static  web application
+                --Any web application doesnt have functionalities.
+                --to build static web applications we will use 
+                  only html and css.
+HTML:
+    HTML boiler plate:
+
+    Tags:
+        -Tags are the predefine words which are enclosed with both opening and closing
+        angular brackets
+        Eg: <h1>,<p>,<div>
+            Types:
+                -Paired Tags:
+                            -Any tags having both opening and closing tags
+                            Eg:all heading tags,formatting tags,other tags
+                                other tags-eg:all list tags,semantic tags and so on...
+
+        
