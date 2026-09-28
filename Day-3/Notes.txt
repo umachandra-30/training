@@ -1,0 +1,12 @@
+Type of list:
+    -ordered list 
+            -<ol></ol>
+    -unordered list
+    -definition list
+    -nested list
+-Forms:
+    -to collect the data
+         Form tags:
+            <form>,<fieldset>,<legend>,<label>
+            <input>,<select>,<button>,<option>,
+            <textarea>

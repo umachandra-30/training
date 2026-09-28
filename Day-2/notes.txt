@@ -1,0 +1,10 @@
+unpaired tags:
+br,img,hr,col,input,meta 
+
+Attributes:
+    -these are the additional information given to the tag.
+    -these are always in static (opening) tag
+Image attributes:
+    absolute path:browser images path
+    relatuve path:downloaded images path
+    
