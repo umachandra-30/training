@@ -1,0 +1,124 @@
+header>img{
+    height: 90px;
+    width: 90px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(powderblue,goldenrod,orange);
+    padding: 20px;
+}
+*{
+margin: 0px;
+}
+header ol{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    list-style: none;
+}
+header ol>li{
+    background-color: aliceblue;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+header ol>li>a{
+    color: aqua;
+    text-decoration: none;
+  
+}
+
+
+
+.button-container {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.products-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.products-table td {
+    width: 33.33%;
+    padding: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.main-card {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.sub-main-card {
+    width: 50%;
+    height: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.left {
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #f1f1f1;
+}
+
+.right {
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.right h2 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 8px;
+}
+
+.right p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: auto;
+    padding-bottom: 5px;
+}
+
+.button-container .btn {
+    font-size: 11px;
+    padding: 5px 7px;
+}
+.left {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
