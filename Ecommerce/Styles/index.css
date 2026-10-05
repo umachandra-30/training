@@ -1,35 +1,10 @@
-header>img{
-    height: 90px;
-    width: 90px;
+header {
+    margin: 0;
+    padding: 0;
 }
-header{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    background-image: linear-gradient(powderblue,goldenrod,orange);
-    padding: 20px;
-}
-*{
-margin: 0px;
-}
-header ol{
-    display: flex;
-    width: 60vw;
-    justify-content: space-between;
-    list-style: none;
-}
-header ol>li{
-    background-color: aliceblue;
-    padding: 8px 20px;
-    border-radius: 25px;
-}
-header ol>li>a{
-    color: aqua;
+header a {
     text-decoration: none;
-  
 }
-
 
 
 .button-container {
