@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-color: aqua;
+
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+    animation: disco 0.1s linear 0s infinite  normal;
+}
+@keyframes disco{
+    0%{
+        background-color: red;
+    }
+    15%{
+        background-color: aliceblue;
+    }
+    30%{
+        background-color: aqua;
+    }
+    45%{
+        background-color: aquamarine;
+    }
+    60%{
+        background-color: beige;
+    }
+    75%{
+        background-color: black;
+    }
+    90%{
+        background-color: aquamarine;
+    }
+    100%{
+        background-color: chocolate;
+    }
+}

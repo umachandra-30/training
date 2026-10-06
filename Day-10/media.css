@@ -1,0 +1,25 @@
+div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+
+@media (min-width: 200px) and (max-width: 299px) {
+    div {
+        background-color: red;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 667px) {
+    div {
+        background-color: chocolate;
+    }
+}
+
+@media (min-width: 600px) {
+    div {
+        background-color: red;
+    }
+}
